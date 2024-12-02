@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using BepInEx;
 
-[BepInPlugin("com.SpLinTeR.Taunt_FR", "Taunt_FR", "1.0.3")]
+[BepInPlugin("com.SpLinTeR.Taunt_FATCOOP", "Taunt_FATCOOP", "1.0.3")]
 public class FolderMoverMod : BaseUnityPlugin
 {
     private void Awake()
@@ -21,18 +21,18 @@ public class FolderMoverMod : BaseUnityPlugin
 
         if (pluginsDirectory == null)
         {
-            Logger.LogError("Impossible de trouver le dossier plugins.");
+            Logger.LogError("There aint a folder for the plugins dude.");
             return;
         }
 
         // Chemins des dossiers SpLinTeRTV-Hide_And_Seek_SoundsFR/Sounds et Gogozooom-Hide_And_Seek/Sounds dans le répertoire "plugins"
-        string soundsDirectory = Path.Combine(pluginsDirectory, "SpLinTeRTV-Hide_And_Seek_SoundsFR", "Sounds");
+        string soundsDirectory = Path.Combine(pluginsDirectory, "FatCoopHideAndSeekTaunts", "Sounds");
         string targetDirectory = Path.Combine(pluginsDirectory, "Gogozooom-Hide_And_Seek", "Sounds");
 
         // Vérifier que le dossier "Sounds" existe dans SpLinTeRTV-Hide_And_Seek_SoundsFR
         if (!Directory.Exists(soundsDirectory))
         {
-            Logger.LogError($"Le dossier Sounds n'existe pas dans SpLinTeRTV-Hide_And_Seek_SoundsFR : {soundsDirectory}");
+            Logger.LogError($"Sounds sure exist in FatCoopHideAndSeekTaunts : {soundsDirectory}");
             return;
         }
 
@@ -42,7 +42,7 @@ public class FolderMoverMod : BaseUnityPlugin
             if (Directory.Exists(targetDirectory))
             {
                 Directory.Delete(targetDirectory, true); // true pour supprimer le contenu aussi
-                Logger.LogInfo($"Le dossier Sounds a été supprimé dans Gogozooom-Hide_And_Seek : {targetDirectory}");
+                Logger.LogInfo($"Sounds no longer exist in Gogozooom-Hide_And_Seek : {targetDirectory}");
             }
 
             // Copier le dossier "Sounds" vers Gogozooom-Hide_And_Seek
@@ -51,7 +51,7 @@ public class FolderMoverMod : BaseUnityPlugin
         }
         catch (Exception ex)
         {
-            Logger.LogError($"Erreur lors de la copie du dossier : {ex.Message}");
+            Logger.LogError($"yikes an error happened : {ex.Message}");
         }
     }
 
