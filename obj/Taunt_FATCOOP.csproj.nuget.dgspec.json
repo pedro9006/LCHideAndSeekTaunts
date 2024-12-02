@@ -7,11 +7,11 @@
     "C:\\Users\\At0m3\\Desktop\\Taunt_FR\\Taunt_FR\\Taunt_FR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\At0m3\\Desktop\\Taunt_FR\\Taunt_FR\\Taunt_FR.csproj",
+        "projectUniqueName": "C:\\Users\\At0m3\\Desktop\\Taunt_FATCOOP\\Taunt_FATCOOP\\Taunt_FATCOOP.csproj",
         "projectName": "Taunt_FR",
-        "projectPath": "C:\\Users\\At0m3\\Desktop\\Taunt_FR\\Taunt_FR\\Taunt_FR.csproj",
+        "projectPath": "C:\\Users\\At0m3\\Desktop\\Taunt_FATCOOP\\Taunt_FATCOOP\\Taunt_FATCOOP.csproj",
         "packagesPath": "C:\\Users\\At0m3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\At0m3\\Desktop\\Taunt_FR\\Taunt_FR\\obj\\",
+        "outputPath": "C:\\Users\\At0m3\\Desktop\\Taunt_FATCOOP\\Taunt_FATCOOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\At0m3\\AppData\\Roaming\\NuGet\\NuGet.Config",
