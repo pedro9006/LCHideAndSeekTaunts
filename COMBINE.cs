@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using BepInEx;
 
-[BepInPlugin("com.SpLinTeR.TauntFR", "TauntFR", "1.0.0")]
+[BepInPlugin("com.BruhMMods.FCTaunts", "FATCOOPTaunts", "1.0.0")]
 public class FolderMoverMod : BaseUnityPlugin
 {
     private void Awake()
