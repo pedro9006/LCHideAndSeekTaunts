@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taunt_FR", "Taunt_FR.csproj", "{1784EA27-1F04-46F8-9F7C-8379ADBFC561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taunt_FATCOOP", "Taunt_FATCOOP.csproj", "{1784EA27-1F04-46F8-9F7C-8379ADBFC561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
